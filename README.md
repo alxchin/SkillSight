@@ -9,7 +9,8 @@
   </div>
   <br />
 </div>
-<img width="1024" height="290" alt="image" src="https://github.com/user-attachments/assets/5c215fc0-5d8b-4375-ade5-aad87820a223" />
+<img width="1024" height="290" alt="image" src="https://github.com/user-attachments/assets/7ade6ce1-6e77-45c5-b1a8-17beaba0960f" />
+
 
 ## 🚀 Live Demo
 
