@@ -1,87 +1,54 @@
-# Welcome to React Router!
+<div align="center">
+  <h1><img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/1bc9a5c4-03e9-4cfc-8c6f-4da67cc0552d" />
+ SkillSight </h1>
+  <div>
+    <img alt="Static Badge" src="https://img.shields.io/badge/React-4c84f3?style=for-the-badge&logo=react&logoColor=white">
+        <img src="https://img.shields.io/badge/-Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+        <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
+    <img alt="Static Badge" src="https://img.shields.io/badge/Puter.js-181758?style=for-the-badge&logoColor=white">
+  </div>
+  <br />
+</div>
+<img width="1024" height="290" alt="image" src="https://github.com/user-attachments/assets/5c215fc0-5d8b-4375-ade5-aad87820a223" />
 
-A modern, production-ready template for building full-stack React applications using React Router.
+## 🚀 Live Demo
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Explore the deployed project here:  
+🔗 [View SkillSight in Action](https://skill-sight-self.vercel.app/)
 
-## Features
+## <a name="introduction">🤖 Introduction</a>
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+**SkillSight** is a browser-based AI resume platform with a modern interface that lets users upload, store, and optimize resumes with personalized ATS scoring and feedback, making job application prep effortless and intuitive.
 
-## Getting Started
 
-### Installation
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-Install the dependencies:
+- React 19 + React Router v7 (Framework Mode)
+- Puter.js (Client‑side SDK that adds serverless auth, storage, database, and AI (GPT, Claude, DALL·E, OCR…))
+- Puter.com (Advanced, open-source internet operating system designed to be feature-rich, exceptionally fast, and highly extensible)
+- Tailwind CSS 
+- Vite
 
-```bash
-npm install
-```
+## <a name="features">🔋 Features</a>
 
-### Development
+- 🤖 **AI resume matching**: Analyze job listings and receive an ATS score with personalized feedback for each uploaded resume.
+- 💾 **Resume upload & storage**: Upload and securely store all resumes in one convenient location for easy access.
+- 📈 **Easy & convenient auth**: Handle authentication entirely in the browser using Puter.js.
+- 🗂 **Reusable, modern UI**: Built with clean, consistent components for a polished and maintainable interface.
+- 🔐 **Code Reusability**: Utilize modular components and a structured codebase for faster and efficient development.
+- 📱 **Cross-Device Compatibility**: Fully responsive design that adapts seamlessly to all screen sizes and devices.
+- 🧱 **Modern UI/UX**: Clean, responsive design using Tailwind CSS and shadcn/ui for an intuitive user experience.
+- **⚡ Built for scalability**: Designed to support growth and ensure smooth performance across all interactions.
 
-Start the development server with HMR:
+## <a name="dashboard">Assets</a>
 
-```bash
-npm run dev
-```
+<h3 name="login-page"> Login Page </h3>
+<img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/8bdbf5f0-b22f-493b-8fb3-82259808a28c" />
 
-Your application will be available at `http://localhost:5173`.
+<h3 name="upload-page"> Upload Resume </h3>
+<img width="1907" height="918" alt="image" src="https://github.com/user-attachments/assets/85709830-c7c5-42ba-9f70-05e4a60b50ac" />
 
-## Building for Production
+<h3 name="AI-Summary"> AI Summary Page </h3>
+<img width="1905" height="1080" alt="image" src="https://github.com/user-attachments/assets/a7786100-a8c3-47d7-b20c-f873cc3c093b" />
 
-Create a production build:
 
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
